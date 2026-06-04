@@ -1,4 +1,4 @@
-# 📦 exoweaver
+# 🦾 ExoWeaver
 
 這是一個自用的 Agent 功能模組管理 Monorepo，採用 pnpm workspace 架構。核心目的在於**將 LLM 接入、MCP 協議、原子工具（Tools）與複合工作流（Skills）進行扁平化、集中化管理**，作為個人其他終端應用的底層依賴庫。
 
