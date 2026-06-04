@@ -1,4 +1,4 @@
-# 📦 agent-capsule
+# 📦 exoweaver
 
 這是一個自用的 Agent 功能模組管理 Monorepo，採用 pnpm workspace 架構。核心目的在於**將 LLM 接入、MCP 協議、原子工具（Tools）與複合工作流（Skills）進行扁平化、集中化管理**，作為個人其他終端應用的底層依賴庫。
 
@@ -7,7 +7,7 @@
 ## 📂 扁平化目錄與職責邊界
 
 ```text
-agent-capsule/
+exoweaver/
 ├── llm/          # 大模型適配：統一封裝 Provider API、Token 計算與 Stream 處理
 ├── mcp/          # 協議層：處理標準 JSON-RPC 封裝與 Context 注入
 ├── tools/        # 原子工具庫：無狀態、純函數、不含 LLM 推理的底層 I/O 操作
